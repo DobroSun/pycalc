@@ -85,7 +85,7 @@ class Main():
             self.label_update(b)
             self.stack = f"{b}"
         except:
-            error = "Uncorrect input"
+            error = "Incorrect input"
             self.label_update(error)
             self.stack = ""
 
